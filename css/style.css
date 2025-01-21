@@ -146,6 +146,17 @@ body {
     font-weight: bold;
 }
 
+/* Blog Section */
+.section33 img{
+    max-width: 100;
+}
+.section33 a{
+    color: #ee5253;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Jersey_15;
+}
+
 /* Footer */
 #imp-link{
     background-color: #576574;
