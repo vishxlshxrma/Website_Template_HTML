@@ -118,6 +118,34 @@ body {
     color: #363636;
 }
 
+/* Contact Us */
+#contact-container{
+    background-color: #ee5253;
+    color: #fdfdfd;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section70{
+    width: 70%;
+    float: left;
+}
+.section30{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 70px;
+}
+#contact-btn{
+    background-color: #fdfdfd;
+    color: #ee5253;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 /* Footer */
 #imp-link{
     background-color: #576574;
