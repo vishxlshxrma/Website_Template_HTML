@@ -1,0 +1,161 @@
+/* Font */
+
+*{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@font-face {
+    font-family: Jersey_15;
+    src: url(../fonts/Jersey_15/Jersey15-Regular.ttf);
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: Jersey_15;
+}
+
+/* Body */
+body {
+    margin: 0;
+}
+.uni-padding {
+    padding: 0 7%;
+}
+
+/* Top-Bar */
+#topbar {
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#tollfree{
+    float: left;
+    color: #fdfdfd;
+    margin: 0;
+    margin-top: 5px;
+}
+#social-icon {
+    float: right;
+}
+.fa-brands {
+    background-color: #fdfdfd;
+    color: #576574;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+/* Logo Bar */
+#logobar img{
+    width: 200px;
+    margin: 25px 0px;
+}
+
+/* Nav Bar */
+#navbar {
+    background-color: #ee5253;
+}
+
+#navbar ul li{
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right: 35px;
+}
+#navbar ul li a{
+    color: #fdfdfd;
+    text-decoration: none;
+    font-size: 18px;
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* Poster */
+#poster {
+    background-image: url(../images/banner.jpg);
+    height: 800px;
+    padding: auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fdfdfd;
+    flex-direction: column;
+}
+#poster h1{
+    font-size: 100px;
+    text-align: center;
+}
+#poster p{
+    font-size: 25px;
+}
+
+#whysection{
+    overflow: auto;
+}
+.red-heading {
+    color: #ee5253;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 50px;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.section33 h2{
+    color: #ee5253;
+    font-size: 25px;
+}
+.section33 p{
+    color: #363636;
+}
+
+/* Footer */
+#imp-link{
+    background-color: #576574;
+    color: #fdfdfd;
+    overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-weight: normal;
+}
+#footer-menu{
+    list-style-type: none;
+    padding: 0px;
+}
+#footer-menu li{
+    padding-bottom: 10px;
+}
+#footer-menu li a{
+    text-decoration: none;
+    color: #fdfdfd;
+}
+#footer-menu-container1{
+    padding-left: 300px;
+}
+#footer-menu-container2{
+    padding-left: 250px;
+}
+#copyright{
+    background-color: #222f3e;
+    text-align: center;
+    color: #cbcbcb;
+    padding: 10px;
+}
