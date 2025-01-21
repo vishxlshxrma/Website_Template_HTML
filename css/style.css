@@ -157,6 +157,44 @@ body {
     font-family: Jersey_15;
 }
 
+/* Subscribe */
+#subscribe-section{
+    background-color: #ee5253;
+    color: #fdfdfd;
+    overflow: auto;
+    padding-top: 40 px;
+    padding-bottom: 40px;
+}
+.section50{
+    width: 50%;
+    float: left;
+    display: inline;
+}
+.section50 h2{
+    font-size: 35px;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 35px;
+}
+.section50 form{
+    padding-top: 60px;
+}
+.section50 input[type="text"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #ee5253;
+    margin-right: 20px;
+    border: 0px;
+    width: 200px;
+    
+}
+.section50 input[type="submit"]{
+    padding: 8px 35px;
+    font-size: 15px;
+    color: #ee5253;
+    border: 0px;
+}
+
 /* Footer */
 #imp-link{
     background-color: #576574;
