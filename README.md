@@ -17,11 +17,11 @@ This is a vibrant and visually appealing website template built using core funda
 ## Installation & Setup
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/repository-name.git
+   git https://github.com/vishxlshxrma/Website_Template_HTML.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd repository-name
+   cd Website\ Template\ HTML\
    ```
 3. Open `index.html` in a web browser.
 
